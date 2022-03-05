@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e85e438-c4c6-4013-9f7f-df42151f830c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/TenAngular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TenAngular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TenAngular/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/src/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="0e85e438-c4c6-4013-9f7f-df42151f830c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +9,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="25uu5taRVkADXrxfpebiz5SeKQB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,7 +30,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="optimize.imports.on.save" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="G:\git\TenAngularProjects\TenAngular\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="rearrange.code.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="actions.on.save" />
+    <property name="ts.external.directory.path" value="G:\WebStorm\WebStorm 2021.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
