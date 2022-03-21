@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e85e438-c4c6-4013-9f7f-df42151f830c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TenAngular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TenAngular/src/app/home-page/home-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/src/app/home-page/home-page.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

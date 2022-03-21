@@ -10,7 +10,7 @@ import { MatChipsModule } from '@angular/material/chips';
 
 @NgModule({
   declarations: [AppComponent, HomePageComponent, NotFoundPageComponent],
-  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
+  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, MatChipsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
