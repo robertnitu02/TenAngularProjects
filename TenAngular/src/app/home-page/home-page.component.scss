@@ -1,0 +1,39 @@
+@import "shared/constants/variabless";
+
+.app {
+  &__parallax1 {
+    background-image: url("https://images3.alphacoders.com/841/thumb-1920-841918.jpg");
+    min-height: 500px;
+    min-width: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+  }
+
+  &__parallax2 {
+    background-image: url("https://wallpaperaccess.com/full/4858991.jpg");
+    min-height: 500px;
+    min-width: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+  }
+
+  &__spacing {
+    height: 100px;
+    font-size: 60px;
+  }
+
+  &__presentationPhoto {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid $black-color;
+  }
+}
