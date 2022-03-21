@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e85e438-c4c6-4013-9f7f-df42151f830c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TenAngular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TenAngular/src/app/home-page/home-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/src/app/home-page/home-page.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TenAngular/src/app/home-page/home-page.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/src/app/home-page/home-page.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TenAngular/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +49,7 @@
       <workItem from="1646389125985" duration="926000" />
       <workItem from="1646646217742" duration="370000" />
       <workItem from="1646647871352" duration="125000" />
+      <workItem from="1647904314438" duration="151000" />
     </task>
     <servers />
   </component>
