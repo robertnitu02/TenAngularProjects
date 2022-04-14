@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ce348fa-7ef6-4666-a42d-25dd73918a1d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TenAngular/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TenAngular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TenAngular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TenAngular/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/src/polyfills.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649973879055</updated>
-      <workItem from="1649973905878" duration="384000" />
+      <workItem from="1649973905878" duration="687000" />
     </task>
     <servers />
   </component>
