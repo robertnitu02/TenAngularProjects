@@ -8,9 +8,11 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import {MatChipsModule} from "@angular/material/chips";
+import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, NotFoundPageComponent, HomePageComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

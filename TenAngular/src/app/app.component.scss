@@ -1,51 +1,5 @@
 @import './src/shared/constants/variables';
 
 .app {
-  &__toolbar {
 
-  }
-
-  &__content {
-
-  }
-
-  &__content-spacer {
-    height: 125px;
-    background-color: $black-color;
-    font-size: 18px
-  }
-
-  &__photo1 {
-    background-image: url("https://i.imgur.com/BEbqrjx.jpg");
-  }
-
-  &__photo2 {
-    background-image: url("https://i.imgur.com/FsAcBlX.jpg");
-  }
-
-  &__photo3 {
-    background-image: url("https://i.imgur.com/jYb5JVa.jpg");
-  }
-
-  &__paralllax {
-    min-height: 550px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  &__about-me {
-    position: absolute;
-    top: 32%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    &__image {
-      width: 250px;
-      height: auto;
-      border-radius: 50%;
-      padding: 10px;
-    }
-  }
 }
