@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5ce348fa-7ef6-4666-a42d-25dd73918a1d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TenAngular/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TenAngular/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TenAngular/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TenAngular/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TenAngular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TenAngular/src/app/home-page/home-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/src/app/home-page/home-page.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TenAngular/src/app/home-page/home-page.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/src/app/home-page/home-page.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TenAngular/src/app/home-page/home-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TenAngular/src/app/home-page/home-page.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,7 @@
       <updated>1649973879055</updated>
       <workItem from="1649973905878" duration="1179000" />
       <workItem from="1650019396549" duration="1902000" />
-      <workItem from="1650386178315" duration="625000" />
+      <workItem from="1650386178315" duration="4912000" />
     </task>
     <servers />
   </component>
