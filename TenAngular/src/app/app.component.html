@@ -1,3 +1,13 @@
 <div class="app">
+  <div class="app__toolbar">
+    <mat-toolbar>
+      <span>Ten Angular</span>
+      <div class="app__toolbar__navigation">
+        <button mat-icon-button routerLink="/home" routerLinkActive="true">
+          <mat-icon>home</mat-icon>
+        </button>
+      </div>
+    </mat-toolbar>
+  </div>
   <router-outlet></router-outlet>
 </div>

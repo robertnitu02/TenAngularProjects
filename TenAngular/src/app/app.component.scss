@@ -1,5 +1,10 @@
 @import './src/shared/constants/variables';
 
 .app {
-
+  &__toolbar {
+    &__navigation {
+      margin-left: auto;
+      margin-right: 0;
+    }
+  }
 }
