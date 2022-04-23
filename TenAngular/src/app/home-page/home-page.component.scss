@@ -21,7 +21,7 @@
 
   &__content-spacer {
     height: auto;
-    background-color: $spacer-color;
+    background: linear-gradient(to bottom right, $spacer-color1, $spacer-color2);
     font-size: 18px
   }
 
@@ -63,7 +63,11 @@
   }
 
   &__parallax-content {
-    
+    position: absolute;
+    margin: 0;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -75,5 +79,3 @@ h1 {
   letter-spacing: -1px;
   line-height: 1;
 }
-
-
