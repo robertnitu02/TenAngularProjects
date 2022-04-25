@@ -11,6 +11,8 @@ import { MatChipsModule } from '@angular/material/chips';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { TicTacToePageComponent } from './tic-tac-toe-page/tic-tac-toe-page.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { TicTacToePageComponent } from './tic-tac-toe-page/tic-tac-toe-page.comp
     MatIconModule,
     MatButtonModule,
     MatChipsModule,
+    MatFormFieldModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
