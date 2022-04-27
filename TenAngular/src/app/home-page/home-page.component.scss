@@ -20,9 +20,26 @@
   }
 
   &__content-spacer {
-    height: 125px;
-    background-color: $spacer-color;
+    height: auto;
+    background: linear-gradient(to bottom right, $spacer-color1, $spacer-color2);
     font-size: 18px
+  }
+
+  &__content-text {
+    height: auto;
+    text-align: left;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__text-fit {
+    display: block;
+    color: $white-color;
+    float: left;
+    transform-origin: left top;
+    white-space: nowrap;
   }
 
   &__photo1 {
@@ -30,7 +47,7 @@
   }
 
   &__photo2 {
-    background-image: url("https://i.imgur.com/FsAcBlX.jpg");
+    background-image: url("https://i.imgur.com/7KkTSWM.jpg");
   }
 
   &__photo3 {
@@ -44,4 +61,21 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  &__parallax-content {
+    position: absolute;
+    margin: 0;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+h1 {
+  color: $white-color;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
 }

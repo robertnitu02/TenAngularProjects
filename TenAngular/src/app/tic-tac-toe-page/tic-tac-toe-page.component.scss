@@ -1,0 +1,76 @@
+@import "src/shared/constants/variables";
+
+.tic-tac-toe {
+  &__header {
+    height: auto;
+    width: auto;
+    padding: 4px;
+    background: linear-gradient(to bottom right, $spacer-color1, $spacer-color2);
+  }
+
+  &__content {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__start-button {
+    transform: translateX(35%);
+  }
+
+  &__different-text {
+    color: $red-color;
+    font-weight: bold;
+
+    &__vs {
+      color: $vs-color;
+      font-style: italic;
+    }
+  }
+
+  &__border {
+    text-align: center;
+  }
+
+  &__board-zone {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background: linear-gradient(to bottom right, $spacer-color1, $spacer-color2);
+  }
+
+  &__block {
+    width: 100px;
+    height: 100px;
+    border: 1px solid $black-color;
+    line-height: 100px;
+    font-size: 60px;
+    color: $white-color;
+
+    &:hover {
+      color: $red-color;
+      cursor: pointer;
+      background: linear-gradient(to bottom right, $tic-tac-toe-block-hover-color1, $tic-tac-toe-block-hover-color2);
+    }
+  }
+}
+
+h1 {
+  color: $white-color;
+  margin-left: 11px;
+  margin-top: 2px;
+}
+
+h4 {
+  color: $white-color;
+}
+
+body {
+  background-color: $grey-color;
+}
+
+mat-form-field {
+  color: $white-color;
+}

@@ -1,0 +1,59 @@
+<div class="tic-tac-toe">
+  <div class="tic-tac-toe__header">
+    <h1>Tic-Tac-Toe</h1>
+  </div>
+  <div class="tic-tac-toe__content">
+    <div *ngIf="!isGameStarted" class="tic-tac-toe__init-stats">
+      <div class="tic-tac-toe__name-init">
+        <h4>{{NameInitWarningMessage}}</h4>
+        <table>
+          <tr>
+            <td>
+              <mat-form-field>
+                <mat-label>Player1</mat-label>
+                <input #Player1 matInput>
+              </mat-form-field>
+            </td>
+            <td>
+              <mat-form-field>
+                <mat-label>Player2</mat-label>
+                <input #Player2 matInput>
+              </mat-form-field>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="tic-tac-toe__start-button">
+        <button (click)="startingGame(Player1.value, Player2.value)" mat-raised-button>
+          <mat-icon>play_arrow</mat-icon>
+          Play!
+        </button>
+      </div>
+    </div>
+    <div *ngIf="isGameStarted" class="tic-tac-toe__border">
+      <h1>
+        [{{Player1Score}}] {{ Player1Name }} (<span class="tic-tac-toe__different-text">X</span>)
+        <span class="tic-tac-toe__different-text__vs">VS</span>
+        (<span class="tic-tac-toe__different-text">O</span>) {{ Player2Name }} [{{Player2Score}}]
+      </h1>
+      <h1>{{InfoMessage}}</h1>
+      <div class="tic-tac-toe__board-zone">
+        <div (click)="makeMove(0)" class="tic-tac-toe__block">{{board[0]}}</div>
+        <div (click)="makeMove(1)" class="tic-tac-toe__block">{{board[1]}}</div>
+        <div (click)="makeMove(2)" class="tic-tac-toe__block">{{board[2]}}</div>
+        <div (click)="makeMove(3)" class="tic-tac-toe__block">{{board[3]}}</div>
+        <div (click)="makeMove(4)" class="tic-tac-toe__block">{{board[4]}}</div>
+        <div (click)="makeMove(5)" class="tic-tac-toe__block">{{board[5]}}</div>
+        <div (click)="makeMove(6)" class="tic-tac-toe__block">{{board[6]}}</div>
+        <div (click)="makeMove(7)" class="tic-tac-toe__block">{{board[7]}}</div>
+        <div (click)="makeMove(8)" class="tic-tac-toe__block">{{board[8]}}</div>
+      </div>
+      <div *ngIf="freezeGame" class="tic-tac-toe__under-board">
+        <button (click)="startGame()" mat-raised-button>
+          <mat-icon>refresh</mat-icon>
+          Play Again
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
