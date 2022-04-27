@@ -80,7 +80,7 @@ export class TicTacToePageComponent implements OnInit {
       return;
     }
     if (this.checkDraw()) {
-      this.InfoMessage = 'Draw! No one wins.';
+      this.InfoMessage = 'Draw! No one won.';
       this.freezeGame = true;
       return;
     }
@@ -99,10 +99,10 @@ export class TicTacToePageComponent implements OnInit {
     let infoMessage;
     if (this.currentTurn == 'X') {
       this.Player1Score++;
-      infoMessage = `${this.Player1Name} wins!`;
+      infoMessage = `${this.Player1Name} won!`;
     } else {
       this.Player2Score++;
-      infoMessage = `${this.Player2Name} wins!`;
+      infoMessage = `${this.Player2Name} won!`;
     }
     this.InfoMessage = infoMessage;
     this.lastWinner = this.currentTurn;
