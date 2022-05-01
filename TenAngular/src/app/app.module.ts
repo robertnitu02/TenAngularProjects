@@ -13,6 +13,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { TicTacToePageComponent } from './tic-tac-toe-page/tic-tac-toe-page.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { HangmanPageComponent } from './hangman-page/hangman-page.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { MatInputModule } from '@angular/material/input';
     NotFoundPageComponent,
     HomePageComponent,
     TicTacToePageComponent,
+    HangmanPageComponent,
   ],
   imports: [
     BrowserModule,

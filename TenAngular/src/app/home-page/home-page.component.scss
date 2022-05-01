@@ -51,23 +51,22 @@
   }
 
   &__photo3 {
-    background-image: url("https://i.imgur.com/jYb5JVa.jpg");
+    background-image: url("https://i.imgur.com/2L4rPlC.jpg");
   }
 
   &__paralllax {
     min-height: 550px;
+    height: 550px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-  &__parallax-content {
-    position: absolute;
-    margin: 0;
-    top: 105%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  &__button-center {
+    display: block;
+    margin: 0 auto;
+    top: 50%;
   }
 }
 
