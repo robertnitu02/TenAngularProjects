@@ -1,5 +1,47 @@
 @import "src/shared/constants/variables";
 
 .hangman-page {
+  &__header {
+    height: auto;
+    width: auto;
+    padding: 4px;
+    background: linear-gradient(to bottom right, $spacer-color1, $spacer-color2);
+  }
 
+  &__content {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__alphabet-buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__button-space {
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+
+  &__text-area {
+    padding-top: 20px;
+  }
+
+  &__control-buttons {
+    margin-right: 5px;
+    width: 150px;
+  }
+}
+
+h1 {
+  color: $white-color;
+  margin-left: 11px;
+  margin-top: 2px;
+}
+
+body {
+  background-color: $grey-color;
 }

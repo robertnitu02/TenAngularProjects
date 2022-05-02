@@ -23,6 +23,7 @@ export class TicTacToePageComponent implements OnInit {
     [1, 4, 7],
     [2, 5, 8],
   ];
+
   board = ['', '', '', '', '', '', '', '', ''];
   lastWinPositions = [0, 0, 0];
 
