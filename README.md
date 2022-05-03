@@ -1,6 +1,7 @@
 # Ten Angular Projects
-
-![main-page-03-mai-2022](https://i.imgur.com/xKKSxqZ.gif)
+<p align="center">
+  <img src="https://i.imgur.com/xKKSxqZ.gif" alt="main-page-03-mai-2022"/>
+</p>
 
 ## Projects already done ✔️
 
