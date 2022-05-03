@@ -1,0 +1,35 @@
+<div class="hangman-page">
+  <div class="hangman-page__header">
+    <h1>Hangman</h1>
+  </div>
+  <div class="hangman-page__content">
+    <h1>Use the alphabet below to guess the word.</h1>
+    <h1>{{statusMessage}}</h1>
+    <div class="hangman-page__alphabet-buttons">
+      <div *ngFor="let letter of alphabet">
+        <div class="hangman-page__button-space">
+          <button (click)="checkWord(letter)" mat-flat-button>{{letter.toUpperCase()}}</button>
+        </div>
+      </div>
+    </div>
+    <div class="hangman-page__text-area">
+      <h1>Category: {{currentCategory}}</h1>
+      <h1>{{guessWordShow}}</h1>
+      <h1>lives: {{lives}}</h1>
+      <div *ngIf="wantHint" class="hangman-page__hint">
+        <h1>Hint: {{currentHint}}</h1>
+      </div>
+      <div class="hangman-page__stickman">
+        <img alt="stickman" class="hangman-page__stickman-photo" src="{{currentStickmanUrl}}"/>
+      </div>
+      <button (click)="showHint()" class="hangman-page__control-buttons" color="warn" mat-flat-button>
+        <mat-icon>highlight</mat-icon>
+        Hint
+      </button>
+      <button (click)="setWord()" class="hangman-page__control-buttons" mat-flat-button>
+        <mat-icon>replay</mat-icon>
+        Reset
+      </button>
+    </div>
+  </div>
+</div>
