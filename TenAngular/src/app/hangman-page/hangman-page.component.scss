@@ -34,6 +34,15 @@
     margin-right: 5px;
     width: 150px;
   }
+
+  &__stickman {
+    margin-bottom: 15px;
+  }
+
+  &__stickman-photo {
+    border: 1px solid $white-color;
+    border-style: dashed;
+  }
 }
 
 h1 {
