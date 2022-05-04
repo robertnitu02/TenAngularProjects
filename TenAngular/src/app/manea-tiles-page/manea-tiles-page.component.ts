@@ -1,5 +1,4 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { timer } from 'rxjs';
 
 @Component({
   selector: 'app-manea-tiles-page',
@@ -15,6 +14,7 @@ export class ManeaTilesPageComponent implements OnInit {
     ['', '', '', '', ''], // 3
     ['', '', '', '', ''], // 4
   ];
+  audioPlayer = new Audio();
   columnPositions = [0, 0, 0, 0, 0];
 
   awaitBoardClass = '';
@@ -33,6 +33,7 @@ export class ManeaTilesPageComponent implements OnInit {
   songSelected(songNumber: number) {
     this.gameStarted = true;
     this.songSelectedNumber = songNumber;
+    this.playMusic();
     this.infoMessage = `Game will start in 3...`;
     this.awaitBoardClass = 'manea-tiles__await-opacity';
     let timerCount = 3;
@@ -59,6 +60,7 @@ export class ManeaTilesPageComponent implements OnInit {
     this.awaitBoardClass = '';
     this.score = 0;
     this.infoMessage = `Your Score: ${this.score}`;
+    this.audioPlayer = new Audio();
 
     for (let i = 0; i < 5; i++) {
       let randomNumber = Math.floor(Math.random() * 4);
@@ -74,6 +76,7 @@ export class ManeaTilesPageComponent implements OnInit {
       this.freezeGame = true;
       this.awaitBoardClass = 'manea-tiles__await-opacity';
       this.infoMessage = `You Lost! Your Score was ${this.score}.`;
+      // TODO stop song
       return;
     }
 
@@ -104,5 +107,14 @@ export class ManeaTilesPageComponent implements OnInit {
 
   selectSong() {
     window.location.reload();
+  }
+
+  playMusic() {
+    this.audioPlayer.src =
+      '../../../assets/manea-tiles-songs/music' +
+      (this.songSelectedNumber + 1) +
+      '.wav';
+    this.audioPlayer.load();
+    this.audioPlayer.play();
   }
 }
