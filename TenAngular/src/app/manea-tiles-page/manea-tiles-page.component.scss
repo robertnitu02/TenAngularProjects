@@ -1,0 +1,20 @@
+@import "src/shared/constants/variables";
+
+.manea-tiles {
+  &__header {
+    height: auto;
+    width: auto;
+    padding: 4px;
+    background: linear-gradient(to bottom right, $spacer-color1, $spacer-color2);
+  }
+}
+
+h1 {
+  color: $white-color;
+  margin-left: 11px;
+  margin-top: 2px;
+}
+
+body {
+  background-color: $grey-color;
+}
