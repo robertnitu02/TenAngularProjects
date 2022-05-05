@@ -49,11 +49,11 @@ export class ManeaTilesPageComponent implements OnInit {
 
   startGame() {
     this.moves = [
-      ['', '', '', '', ''], // 0
-      ['', '', '', '', ''], // 1
-      ['', '', '', '', ''], // 2
-      ['', '', '', '', ''], // 3
-      ['', '', '', '', ''], // 4
+      ['', '', '', '', ''],
+      ['', '', '', '', ''],
+      ['', '', '', '', ''],
+      ['', '', '', '', ''],
+      ['', '', '', '', ''],
     ];
     this.columnPositions = [0, 0, 0, 0, 0];
     this.freezeGame = false;
@@ -72,11 +72,11 @@ export class ManeaTilesPageComponent implements OnInit {
   checkSong(column: number) {
     if (this.freezeGame) return;
     if (this.moves[4][column] == '') {
-      this.moves[4][column] = 'manea-tiles__lose-block-color';
       this.freezeGame = true;
-      this.awaitBoardClass = 'manea-tiles__await-opacity';
       this.infoMessage = `You Lost! Your Score was ${this.score}.`;
-      // TODO stop song
+      this.moves[4][column] = 'manea-tiles__lose-block-color';
+      this.awaitBoardClass = 'manea-tiles__await-opacity';
+      this.audioPlayer.pause();
       return;
     }
 
@@ -101,11 +101,6 @@ export class ManeaTilesPageComponent implements OnInit {
   }
 
   playAgain() {
-    this.freezeGame = false;
-    this.songSelected(this.songSelectedNumber);
-  }
-
-  selectSong() {
     window.location.reload();
   }
 

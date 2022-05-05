@@ -49,10 +49,6 @@
         <div (click)="checkSong(3)" class="manea-tiles__block {{moves[4][3]}}"></div>
       </div>
       <div *ngIf="freezeGame" class="manea-tiles__control-zone">
-        <button (click)="selectSong()" class="manea-tiles__select-song" mat-raised-button>
-          <mat-icon>queue_music</mat-icon>
-          Select another song
-        </button>
         <button (click)="playAgain()" class="manea-tiles__select-song" color="accent" mat-raised-button>
           <mat-icon>replay</mat-icon>
           Play Again!
