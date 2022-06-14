@@ -5,6 +5,7 @@ import { NotFoundPageComponent } from './not-found-page/not-found-page.component
 import { TicTacToePageComponent } from './tic-tac-toe-page/tic-tac-toe-page.component';
 import { HangmanPageComponent } from './hangman-page/hangman-page.component';
 import { ManeaTilesPageComponent } from './manea-tiles-page/manea-tiles-page.component';
+import {RockPaperScissorsPageComponent} from "./rock-paper-scissors-page/rock-paper-scissors-page.component";
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -16,6 +17,7 @@ const routes: Routes = [
     component: ManeaTilesPageComponent,
     pathMatch: 'full',
   },
+  { path: 'rock-paper-scissors', component: RockPaperScissorsPageComponent, pathMatch: 'full'},
   { path: '**', component: NotFoundPageComponent },
 ];
 

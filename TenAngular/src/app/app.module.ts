@@ -15,6 +15,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { HangmanPageComponent } from './hangman-page/hangman-page.component';
 import { ManeaTilesPageComponent } from './manea-tiles-page/manea-tiles-page.component';
+import { RockPaperScissorsPageComponent } from './rock-paper-scissors-page/rock-paper-scissors-page.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ManeaTilesPageComponent } from './manea-tiles-page/manea-tiles-page.com
     TicTacToePageComponent,
     HangmanPageComponent,
     ManeaTilesPageComponent,
+    RockPaperScissorsPageComponent,
   ],
   imports: [
     BrowserModule,
