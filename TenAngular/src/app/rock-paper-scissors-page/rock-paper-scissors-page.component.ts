@@ -8,14 +8,14 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class RockPaperScissorsPageComponent implements OnInit {
   playerOptions = [
-    'https://i.imgur.com/nZjJVzv.png',
-    'https://i.imgur.com/VNNHYg5.png',
-    'https://i.imgur.com/ql4JdYk.png',
+    'https://i.imgur.com/GKi3BTU.png',
+    'https://i.imgur.com/mEOeP3K.png',
+    'https://i.imgur.com/i6cw13o.png',
   ];
   computerOptions = [
-    'https://i.imgur.com/nZjJVzv.png',
-    'https://i.imgur.com/VNNHYg5.png',
-    'https://i.imgur.com/ql4JdYk.png',
+    'https://i.imgur.com/e2JcmJG.png',
+    'https://i.imgur.com/NbUImvk.png',
+    'https://i.imgur.com/ScckflJ.png',
   ];
   winCases = [
     [0, 2],
