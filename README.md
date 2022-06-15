@@ -1,7 +1,7 @@
 # Ten Angular Projects
 
 <p align="center">
-  <img src="https://i.imgur.com/7LCPFQN.gif" alt="main-page-15-iunie-2022"/>
+  <img src="https://i.imgur.com/vBgvev0.gif" alt="main-page-15-iunie-2022"/>
 </p>
 
 ## Projects already done ✔️
