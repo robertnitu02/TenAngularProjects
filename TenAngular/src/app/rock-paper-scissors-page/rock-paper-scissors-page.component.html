@@ -1,3 +1,23 @@
 <div class="rps">
-  <p>rock-paper-scissors-page works!</p>
+  <div class="rps__content">
+    <div class="rps__score-board">
+      <h1>Computer Score: {{computerScore}} | Your Score: {{playerScore}}</h1>
+      <h1>{{result}}</h1>
+    </div>
+    <div class="rps__result-area">
+      <img alt="computer-side" class="rps__result-photo" src="{{computerOptions[computerMove]}}"/>
+      <img alt="player-side" class="rps__result-photo" src="{{playerOptions[playerMove]}}"/>
+    </div>
+    <div class="rps__buttons-area">
+      <button (click)="startRound(0)" class="rps__button" mat-button>
+        <img alt="rock" class="rps__button-photo" src="https://i.imgur.com/nZjJVzv.png"/>
+      </button>
+      <button (click)="startRound(1)" class="rps__button" mat-button>
+        <img alt="paper" class="rps__button-photo" src="https://i.imgur.com/VNNHYg5.png"/>
+      </button>
+      <button (click)="startRound(2)" class="rps__button" mat-button>
+        <img alt="scissors" class="rps__button-photo" src="https://i.imgur.com/ql4JdYk.png"/>
+      </button>
+    </div>
+  </div>
 </div>
