@@ -1,7 +1,7 @@
 # Ten Angular Projects
 
 <p align="center">
-  <img src="https://i.imgur.com/ttSsC56.gif" alt="main-page-05-mai-2022"/>
+  <img src="https://i.imgur.com/7LCPFQN.gif" alt="main-page-15-iunie-2022"/>
 </p>
 
 ## Projects already done ✔️
@@ -25,5 +25,10 @@
     <img src="https://i.imgur.com/uXwW1QX.png" alt="manea-tiles-project-select-song"/>  
     <img src="https://i.imgur.com/czLJIaP.png" alt="manea-tiles-project-game"/>
   <br/> </details>
-- [ ] T.B.A
+- [x] Rock, Paper and Scissors<details>
+  <summary>🔭 Click to see</summary>
+  <br/>
+    <h3>Simple rock, paper and scissors game with visual images.</h3>
+    <img src="https://i.imgur.com/oeh9Z3f.png" alt="rock-paper-scissors-game"/>
+  <br/> </details>
 - [ ] T.B.A
