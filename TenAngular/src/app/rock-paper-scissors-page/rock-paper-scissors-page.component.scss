@@ -1,0 +1,46 @@
+@import "src/shared/constants/variables";
+
+.rps {
+  &__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__score-board {
+    color: $white-color;
+    text-align: center;
+  }
+
+  &__result-area {
+    border: 1px solid $blue-color;
+    padding: 8px;
+  }
+
+  &__result-photo {
+    width: 250px;
+    height: auto;
+  }
+
+  &__buttons-area {
+    margin: 25px 0 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  &__button {
+    margin: 5px;
+    background-color: $blue-color;
+  }
+
+  &__button-photo {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+body {
+  background-color: $grey-color;
+}
