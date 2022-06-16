@@ -1,6 +1,15 @@
 @import "src/shared/constants/variables";
 
 .rps {
+  &__header {
+    height: auto;
+    width: auto;
+    padding: 4px;
+    margin-left: 10px;
+    background: linear-gradient(to bottom right, $spacer-color1, $spacer-color2);
+    color: $white-color;
+  }
+
   &__content {
     position: absolute;
     top: 50%;
