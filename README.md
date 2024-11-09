@@ -31,4 +31,3 @@
     <h3>Simple rock, paper and scissors game with visual images.</h3>
     <img src="https://i.imgur.com/oeh9Z3f.png" alt="rock-paper-scissors-game"/>
   <br/> </details>
-- [ ] T.B.A
